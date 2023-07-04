@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A pyhton script that uses ths REST API"""
+"""A python script that uses ths REST API"""
 
 import requests
 import sys
