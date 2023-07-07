@@ -1,5 +1,8 @@
 #!/usr/bin/python3
+
 """ Calls an API and stores data in a JSON file """
+
+
 import csv
 import json
 import requests
@@ -33,7 +36,10 @@ if __name__ == '__main__':
 
     with open("todo_all_employees.json", "w+") as jsonfile:
         json.dump(user_tasks, jsonfile)#!/usr/bin/python3
-""" Calls an API and stores data in a JSON file """
+
+# Calls an API and stores data in a JSON file 
+
+
 import csv
 import json
 import requests
